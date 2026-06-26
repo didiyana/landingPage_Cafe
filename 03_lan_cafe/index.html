@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cafe Indah</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+  <header>
+    <h1>Cafe Indah Sari</h1>
+    <nav>
+      <ul>
+        <li><a href="#menu">Menu</a></li>
+        <li><a href="#order">Order</a></li>
+      </ul>
+    </nav>
+    <button>Login</button>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container">
+        <img src="assets/img/lg_cafe.png" alt="cafe">
+      </div>
+    </section>
+
+    <section class="menu" id="menu">
+      <h2 style="display: block; color: #353535; text-align: center; font-size: 5vh;">Menu</h2>
+      <div class="container">
+        <div class="card">
+          <img src="assets/img/menu_1.png" alt="">
+          <p class="harga" style="color: red;">Rp 20.000</p>
+          <p>Avocado Toast with Egg</p>
+        </div>
+        <div class="card">
+          <img src="assets/img/menu_3.png" alt="">
+          <p class="harga" style="color: red;">Rp 21.000</p>
+          <p>Cake with Chocolate</p>
+        </div>
+        <div class="card">
+          <img src="assets/img/menu_2.png" alt="">
+          <p class="harga" style="color: red;">Rp 15.000</p>
+          <p>Iced Matcha Latte</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="order" id="order">
+      <div class="container">
+        <div class="card">
+          <form action="#">
+            <div class="input">
+            <label for="pilih_menu">Pilih Menu</label>
+            <select name="menu-select" id="menu-select" aria-label="select menu">
+              <option value="Avocado_Toast_with_Egg">Avocado Toast with Egg</option>
+              <option value="Cake_with_Chocolate">Cake with Chocolate</option>
+              <option value="Iced_Matcha_Latte">Iced Matcha Latte</option>
+            </select>
+            </div>
+            <div class="input">
+            <label for="metode_pembayaran">Metode Pembayaran</label>
+            <select name="menu-select" id="menu-select" aria-label="select menu">
+              <option value="cash">cash</option>
+              <option value="dana">dana</option>
+            </select>
+            </div>
+            <div class="input">
+            <label for="nama_pembeli">Nama Pembeli</label>
+            <input type="text" name="nama_pembeli" id="nama_pembeli">
+            </div>
+            <div class="input">
+            <button>Kirim Pesanan</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <div class="fmain">
+      <div class="logo">
+        <h2>Cafe indah sari</h2>
+      </div>
+      <div class="info">
+        <h2>Informasi Kontak</h2>
+        <ul>
+          <li><a href="#">Whatsup</a></li>
+          <li><a href="#">Facebook</a></li>
+          <li><a href="#">Instagram</a></li>
+          <li><a href="#">No Telephone : +62 815-7352-3352</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="copy">
+      &copy;Cafee indah sari
+    </div>
+  </footer>
+</body>
+
+</html>
